@@ -21,7 +21,7 @@
 | [1-3. 연산 장치]() |
 | [1-4. 캐시 메모리](https://github.com/truuuely/2025-CS-Study/blob/main/Computer%20Architecture/%EC%BA%90%EC%8B%9C%20%EB%A9%94%EB%AA%A8%EB%A6%AC.md) |
 | [1-5. 입출력 시스템]()                       |
-| [1-6. 버스 구조 (시스템 버스와 버스 중재)]() |
+| [1-6. 버스 구조 (시스템 버스와 버스 중재)](https://github.com/truuuely/2025-CS-Study/blob/main/Computer%20Architecture/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EB%B2%84%EC%8A%A4%EC%99%80%20%EB%B2%84%EC%8A%A4%20%EC%A4%91%EC%9E%AC.md) |
 | [1-7. 오류 검출 및 정정]()                   |
 
 
@@ -29,7 +29,7 @@
 
 |                               |
 | ----------------------------- |
-| [2-1. 선형 자료구조와 비교]() |
+| [2-1. 선형 자료구조와 비교](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%84%A0%ED%98%95%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%B9%84%EA%B5%90.md) |
 | []()                          |
 
 ### 3. Database
