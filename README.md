@@ -11,7 +11,7 @@
 
 ## **📌 Computer Science**
 
-[면접 대비 Q&A]()
+[면접 대비 Q&A](https://github.com/truuuely/2025-CS-Study/blob/main/%EB%A9%B4%EC%A0%91%20%EB%8C%80%EB%B9%84%20Q%26A.md)
 
 ### 1. Computer Architecture
 |                                              |
