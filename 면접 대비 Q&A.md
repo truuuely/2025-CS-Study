@@ -3,21 +3,22 @@
 ## 컴퓨터 구조
 
 ### 컴퓨터 구조 개요
-<details> 
+
+<details>
 
 <summary>컴퓨터 구조란 무엇이며, 왜 중요한가요? </summary>
 
 <div markdown=”1”>
 
 - 컴퓨터 시스템의 동작 원리와 구성 요소 간의 관계를 정의하는 기술
-    - 명령 실행, 데이터 처리 방법, SW와 HW의 소통 등을 규정
+  - 명령 실행, 데이터 처리 방법, SW와 HW의 소통 등을 규정
 - 성능 분석, 병목 해소 등 효율적인 SW 설계가 가능
 
 </div>
 
 </details>
 
-<details> 
+<details>
 
 <summary>ISA란 무엇인가요? 어떤 역할을 하나요?</summary>
 
@@ -30,7 +31,7 @@
 
 </details>
 
-<details> 
+<details>
 
 <summary>Von Neumann 구조의 특징과 장단점은 무엇인가요?</summary>
 
@@ -44,7 +45,7 @@
 
 </details>
 
-<details> 
+<details>
 
 <summary>Von Neumann 병목현상은 무엇이며, 어떤 문제가 발생하나요?</summary>
 
@@ -56,14 +57,14 @@
 
 </details>
 
-<details> 
+<details>
 
 <summary>Harvard 구조는 Von Neumann 구조와 어떤 차이가 있나요?</summary>
 
 <div markdown=”1”>
 
-- 하버드 구조는 폰 노이만 구조와 달리, 
-명령어와 데이터를 분리된 메모리와 버스에 저장하는 구조
+- 하버드 구조는 폰 노이만 구조와 달리,
+  명령어와 데이터를 분리된 메모리와 버스에 저장하는 구조
 - CPU가 명령어를 가져오면서 동시에 데이터에 접근할 수 있어 처리 속도가 향상됨
 - 구현은 복잡하지만, 폰 노이만 병목 문제를 줄일 수 있음
 
@@ -71,7 +72,7 @@
 
 </details>
 
-<details> 
+<details>
 
 <summary>명령어 사이클(Instruction Cycle)이란 무엇이며, 각 단계는 어떤 역할을 하나요?</summary>
 
@@ -84,24 +85,24 @@
 
 </details>
 
-<details> 
+<details>
 
 <summary>RISC와 CISC의 차이를 설명해보세요. 각각의 장단점도 함께 이야기해주세요.</summary>
 
 <div markdown=”1”>
 
-- RISC: 명령어가 단순함 
-<br>🙂 HW 처리 속도 빠름, 파이프라이닝과 병렬 처리에 유리  
-<br>😞 컴파일러 구현 어려움
-- CISC: 하나의 명령어로 여러가지 수행 가능: 명령어가 복잡함 
-<br>🙂 코드가 짧고 컴파일러 구현 간단  
-<br>😞 HW 처리 속도 느림
+- RISC: 명령어가 단순함
+  <br>🙂 HW 처리 속도 빠름, 파이프라이닝과 병렬 처리에 유리  
+  <br>😞 컴파일러 구현 어려움
+- CISC: 하나의 명령어로 여러가지 수행 가능: 명령어가 복잡함
+  <br>🙂 코드가 짧고 컴파일러 구현 간단  
+  <br>😞 HW 처리 속도 느림
 
 </div>
 
 </details>
 
-<details> 
+<details>
 
 <summary>ARM과 x86 아키텍처의 구조적 차이를 설명해보세요.</summary>
 
@@ -114,7 +115,7 @@
 
 </details>
 
-<details> 
+<details>
 
 <summary>CPU는 어떻게 명령어와 데이터를 구분하나요? 구조적 관점에서 설명해보세요.</summary>
 
@@ -127,7 +128,7 @@
 
 </details>
 
-<details> 
+<details>
 
 <summary>컴퓨터 구조가 소프트웨어 성능에 어떤 영향을 미치는지 예시와 함께 설명해보세요.</summary>
 
@@ -140,7 +141,8 @@
 
 </details>
 
-### 수의 표현 
+### 수의 표현
+
 > 2의 보수, 부동소수점
 
 <details> <summary>컴퓨터는 음수를 어떻게 저장하나요?</summary> <div markdown="1"> - 2의 보수 방식 사용</br>- 최상위 비트를 부호 비트로 쓰고, 나머지 비트로 2의 보수 값을 저장 </div> </details> <details> <summary>2의 보수는 어떻게 구하나요?</summary> <div markdown="1"> - 1의 보수(NOT 연산)를 취한 뒤 1을 더함 </br>- 또는 `2ⁿ - x`로 계산 가능 </div> </details> <details> <summary>왜 2의 보수를 사용하나나요?</summary> <div markdown="1"> - 뺄셈을 덧셈 회로로 처리할 수 있어 하드웨어가 간단해짐 </br>- 0이 하나만 존재해 오버플로 감지도 쉬움 </div> </details> <details> <summary>1의 보수와 2의 보수의 차이는?</summary> <div markdown="1"> - 1의 보수: 모든 비트를 반전 </br>- 2의 보수: 1의 보수 + 1 </br>- 1의 보수는 +0과 -0 두 개 존재 → 비효율 </div> </details> <details> <summary>컴퓨터는 실수를 어떻게 표현하나요?</summary> <div markdown="1"> - IEEE 754 부동소수점 방식 사용 </br>- 부호(1비트) + 지수(8 or 11비트) + 가수(23 or 52비트) </div> </details> <details> <summary>부동소수점에서 지수에 Bias를 더하는 이유는?</summary> <div markdown="1"> - 지수를 항상 양수로 만들어 비트 단위 정렬/비교가 쉬워짐 </br>- 예: float는 bias 127을 더해 표현 </div> </details> <details> <summary>부동소수점에서 정규화란 무엇인가요?</summary> <div markdown="1"> - 가수를 `1.xxxx` 형태로 표현해 정밀도 확보 </br>- 첫 1은 저장하지 않고 생략함 (암시적 비트) </div> </details> <details> <summary>0.1을 정확하게 표현할 수 없는 이유는?</summary> <div markdown="1"> - 2진수로 0.1은 무한 반복 소수 </br>- 근사값으로 저장되며 오차 발생 </div> </details> <details> <summary>실수 연산에서 오차를 줄이는 방법은?</summary> <div markdown="1"> - Java: `BigDecimal` / Python: `Decimal` 사용 </br>- 또는 소수를 정수로 바꿔서 처리 </div> </details> <details> <summary>float와 double의 차이는?</summary> <div markdown="1"> - float: 32비트 (정밀도 낮음), double: 64비트 (정밀도 높음)</br> - double은 더 많은 소수점 이하 자릿수를 정확히 표현 가능 </div> </details> <details> <summary>부동소수점 대신 고정소수점을 쓸 때는 언제인가요?</summary> <div markdown="1"> - 표현 범위가 작아도 되고 정밀도 요구가 낮은 임베디드 시스템 등 </br>- 구조가 단순하고 하드웨어 구현이 쉬움 </div> </details> <details> <summary>왜 정수 연산이 실수 연산보다 빠른가요?</summary> <div markdown="1"> - 실수 연산은 가수·지수 분리, 정규화 등 복잡한 연산 포함 </br>- 하드웨어 회로도 더 복잡하고 오차 보정도 필요 </div> </details>
@@ -375,5 +377,25 @@
 <div markdown="1"><br>
 - 삽입과 삭제가 빈번하고, 요소 수가 자주 변하는 경우<br>
 - 큐, 스택, 캐시, Undo/Redo와 같은 기능 구현에 적합함<br><br>
+</div>
+</details>
+
+### 힙
+
+<details>
+<summary>힙 자료구조란?</summary>
+<div markdown="1"><br>
+- 완전 이진 트리 기반의 반정렬 자료구조<br>
+- 부모-자식 간 대소 관계 유지 (전체 정렬 X)<br>
+- 삽입/삭제 O(logN)<br>
+- 우선순위 큐의 구현에 활용됨<br><br>
+</div>
+</details>
+
+<details>
+<summary>힙의 삽입 연산이 O(logN)인 이유는?</summary>
+<div markdown="1"><br>
+- 힙은 이진 트리 구조 → 트리 높이가 logN<br>
+- 삽입 후 최악의 경우에도 logN번 부모 노드와 비교<br><br>
 </div>
 </details>
