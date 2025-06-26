@@ -380,6 +380,62 @@
 </div>
 </details>
 
+### 스택과 큐
+
+<details>
+<summary>스택과 큐의 차이는?</summary>
+<div markdown="1">
+
+- 스택은 **LIFO** 구조로, **마지막에 들어간 요소가 먼저** 나옵니다.  
+- 큐는 **FIFO** 구조로, **먼저 들어간 요소가 먼저** 나옵니다.
+
+</div>
+</details>
+
+<details>
+<summary>스택은 어떤 상황에서 사용되나요?</summary>
+<div markdown="1">
+
+- 함수 콜 스택, 재귀 호출 관리, 수식 계산, 괄호 검사, 백트래킹, 깊이 우선 탐색(DFS)
+
+</div>
+</details>
+
+<details>
+<summary>큐는 어떤 상황에서 적합한가요?</summary>
+<div markdown="1">
+
+- 요청 순서대로 처리해야 할 때  
+  - 예: 너비 우선 탐색(BFS), 프린터 큐, 프로세스 스케줄링 등
+
+</div>
+</details>
+
+<details>
+<summary>큐의 종류에는 어떤 것이 있나요?</summary>
+<div markdown="1">
+
+- **일반 큐 (Queue)**  
+- **원형 큐 (Circular Queue)**  
+  - 일반 큐의 overflow 방지를 위해 앞과 뒤를 논리적으로 연결한 구조  
+- **우선순위 큐 (Priority Queue)**  
+  - 우선 순위가 존재하는 작업을 처리하며, 내부적으로 **힙(Heap)** 사용  
+- **덱 (Deque)**  
+  - 큐의 양쪽에서 삽입/삭제 가능 → 유연한 자료구조
+
+</div>
+</details>
+
+<details>
+<summary>스택 오버플로우란?</summary>
+<div markdown="1">
+
+- **콜스택 크기를 초과**하여 더 이상 데이터를 넣을 수 없는 상태  
+- 주로 **재귀 함수가 무한 호출**될 때 발생
+
+</div>
+</details>
+
 ### 힙
 
 <details>
