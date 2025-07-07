@@ -34,7 +34,7 @@
 | [2-3. 힙](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%9E%99.md)                                                                                                 |
 | [2-4. 스택과 큐](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%8A%A4%ED%83%9D%EA%B3%BC%20%ED%81%90.md)                                                            |
 | [2-5. 트리]()                                                                                                                                                                                |
-| [2-6. 이진 탐색 트리(BST)]()                                                                                                                                                                 |
+| [2-6. 이진 탐색 트리(BST)](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)                                                                                                                                                                 |
 | [2-7. 해시]()                                                                                                                                                                                |
 | [2-8. 트라이(Trie)]()                                                                                                                                                                        |
 
