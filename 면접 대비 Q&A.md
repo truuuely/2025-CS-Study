@@ -456,6 +456,84 @@
 </div>
 </details>
 
+### 트리
+<details>
+<summary>트리와 그래프의 차이점은?</summary>
+<div markdown="1">
+
+- 트리는 **사이클이 없음**, `간선 수 = 정점 수 - 1 (V-1 = E)`
+- 계층적
+
+</div>
+</details>
+
+<details>
+<summary>트리의 순회 방법은?</summary>
+<div markdown="1">
+
+- 전위(Pre), 중위(In), 후위(Post) 순회. 일반적으로 DFS로 구현
+- 레벨 순회 (bfs)
+
+</div>
+</details>
+
+<details>
+<summary>이진 트리와 이진 탐색 트리(BST)의 차이?</summary>
+<div markdown="1">
+
+- 이진 트리는 자식 최대 2개, BST는 왼쪽 < 루트 < 오른쪽 조건 추가
+
+</div>
+</details>
+
+<details>
+<summary>완전(complete)/포화(perfect)/균형(balanced) 이진 트리란?</summary>
+<div markdown="1">
+
+- 완전: 왼쪽부터 채움
+- 포화: 모든 레벨 완전히 채움
+- 균형: depth차 ≤ 1
+
+</div>
+</details>
+
+<details>
+<summary>힙(Heap) 구조에 대해 트리의 관점으로 설명하라.</summary>
+<div markdown="1">
+
+- **완전 이진 트리 기반**의 자료구조로, 우선순위 큐에 사용됨
+
+</div>
+</details>
+
+<details>
+<summary>TreeSet과 HashSet의 차이는?</summary>
+<div markdown="1">
+
+- 정렬
+- TreeSet은 정렬 + 중복 제거 / HashSet은 순서 없음, 성능 빠름
+
+</div>
+</details>
+
+<details>
+<summary>TreeMap이 HashMap보다 느린 이유는?</summary>
+<div markdown="1">
+
+- TreeMap은 **정렬 유지 위한 logN 연산 필요**, 내부적으로 레드 블랙 트리 사용
+
+</div>
+</details>
+
+<details>
+<summary>자바의 트리 자료구조 예시는?</summary>
+<div markdown="1">
+
+- TreeMap, TreeSet 등 (둘 다 java.util)
+
+</div>
+</details>
+
 ### 이진 탐색 트리 (BST)
 
 <details>
