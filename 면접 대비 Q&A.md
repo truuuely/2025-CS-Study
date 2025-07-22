@@ -521,3 +521,52 @@
 
 </div>
 </details>
+
+### 트라이
+
+<details>
+<summary> 트라이 자료구조란? </summary>
+<div markdown="1">
+- 트리 자료구조 중 하나로 문자열을 저장, 탐색하는 데 유용 </br>
+- 각 노드는 key-value로 구성되는 Map을 가지며, key는 알파벳, value는 그의 자식 노드다. </br></br>
+</div>
+</details>
+
+<details>
+<summary>트라이의 장단점 </summary>
+<div markdown="1">
+- 장점: 문자열 검색, 추가가 빠름 O(M). </br>
+- 단점: 각 노드에서 자식들의 포인터를 갖고 있기 때문에 필요한 메모리의 크기가 큼</br></br>
+</div>
+</details>
+
+<details>
+<summary> 트라이 자료구조가 이용되는 상황</summary>
+<div markdown="1">
+- 사전 검색, 자동 완성, 압축, 인코딩 등 대량의 문자열을 다룰 때
+</div>
+</details>
+
+</br>
+</br>
+
+## 데이터베이스
+
+### 키
+
+<details>
+<summary> Key란 무엇이고, 종류는 무엇이 있나요? </summary>
+<div markdown="1">
+
+</br>
+
+- Key = 튜플을 구분할 수 있는 기준이 되는 속성
+
+1. 후보키
+2. 기본키
+3. 대체키
+4. 슈퍼키
+5. 외래키
+
+</div>
+</details>
