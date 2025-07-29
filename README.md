@@ -36,13 +36,13 @@
 | [2-5. 트리](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%8A%B8%EB%A6%AC.md)                                                                                                                                                                                |
 | [2-6. 이진 탐색 트리(BST)](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)                                                                                                                                                                 |
 | [2-7. 해시]()                                                                                                                                                                                |
-| [2-8. 트라이(Trie)]()                                                                                                                                                                        |
+| [2-8. 트라이(Trie)](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%8A%B8%EB%9D%BC%EC%9D%B4.md)                                                                                                                                                                        |
 
 ### 3. Database
 
 |                        |
 | ---------------------- |
-| [3-1. 키]()            |
+| [3-1. 키](https://github.com/truuuely/2025-CS-Study/blob/main/Database/%ED%82%A4.md)            |
 | [3-2. ]()              |
 | [3-3. SQL Injection]() |
 | [3-1. ]()              |
