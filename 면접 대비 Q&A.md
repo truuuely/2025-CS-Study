@@ -648,3 +648,83 @@
 
 </div>
 </details>
+
+### SQL Injection
+
+<details>
+<summary> SQL Injection이란 무엇인가요? </summary>
+<div markdown="1">
+웹 애플리케이션에서 입력값 검증이 제대로 이뤄지지 않을 때, 공격자가 악의적으로 조작한 SQL 쿼리를 실행시켜 데이터베이스의 정보 탈취·변조·삭제를 유도하는 대표적인 보안 취약점이다.</br></br>
+</div>
+</details>
+
+<details>
+<summary> SQL Injection은 왜 발생하나요? </summary>
+<div markdown="1">
+SQL 쿼리문에 **사용자 입력값이 직접 삽입**되고, 입력값에 대한 검증 또는 필터링이 부족해 발생한다.
+     다시 말해
+     신뢰할 수 없는 입력이 SQL문에 포함될 때 쿼리 구조가 변경되어 의도치 않은 명령이 실행된다.</br></br>
+</div>
+</details>
+
+<details>
+<summary> SQL Injection의 대표적인 공격 유형에는 무엇이 있나요? </summary>
+<div markdown="1">
+  - **인증 우회/논리 훼손**: 로그인 등에 사용되는 쿼리를 변형해 인증을 우회하거나 시스템 논리를 깨뜨림
+  - **데이터 노출**: 쿼리 변조, 에러 기반, UNION 쿼리 등을 사용해 숨겨진 데이터(아이디, 패스워드 등)를 빼냄
+  - **Blind SQL Injection**: 에러 메시지가 없어도 응답 동작(시간, 참/거짓 등)을 통해 데이터 구조와 내용을 유추. </br></br>
+</div>
+</details>
+
+<details>
+<summary> Blind SQL Injection이란 무엇이고, 일반 SQL Injection과 어떻게 다른가요? </summary>
+<div markdown="1">
+에러 메시지나 결과 값 없이도 참/거짓 판단, 타임딜레이, 외부 요청(OAST 등)으로 데이터베이스 정보를 하나씩 추출하는 공격이다.
+     (일반 SQL Injection은 쿼리 실행 결과나 에러 메시지를 즉시 통해 정보를 획득할 수 있다.)</br></br>
+</div>
+</details>
+
+<details>
+<summary> SQL Injection이 발생하면 실제로 어떤 피해를 줄 수 있나요? </summary>
+<div markdown="1">
+  - **개인정보·계정정보 등 주요 데이터 탈취**
+  - **관리자 권한 탈취(권한 상승)**
+  - **원본 데이터 변조/삭제**
+  - **서비스 중단, 내부망 추가 침투(2차 공격)** 등</br></br>
+</div>
+</details>
+
+<details>
+<summary> SQL Injection 공격을 방어하기 위한 대표적인 방법? </summary>
+<div markdown="1">
+  - **파라미터 바인딩(PreparedStatement) + 사용자 입력값 필터링/검증**
+  - **DB 계정 권한 최소화 및 분리**</br></br>
+</div>
+</details>
+
+<details>
+<summary> PreparedStatement와 Statement의 차이는 무엇인가요? </summary>
+<div markdown="1">
+
+     **Statement**는 사용자가 입력한 값까지 포함된 SQL 전체를 문자열로 만들어 실행 (SQL Injection에 취약)
+
+     **PreparedStatement**는 쿼리 구조와 입력값(파라미터)이 분리되어 미리 컴파일된 쿼리문에 값만 전달하기 때문에 SQL Injection 공격 방어가 가능</br></br>
+
+</div>
+</details>
+
+<details>
+<summary> SQL Injection과 XSS(Cross Site Scripting)의 차이점은? </summary>
+<div markdown="1">
+  - SQL Injection은 데이터베이스 서버를 주요 공격 대상으로 함
+    - 공격자가 웹 애플리케이션의 입력값 검증이 미흡한 점을 노려 악의적인 SQL 쿼리를 주입해 데이터베이스 내의 정보를 탈취하거나 조작함.
+    - 주로 데이터의 변조, 삭제, 시스템 권한 탈취 등 데이터베이스와 관련된 피해가 발생함.
+    - 입력값이 SQL 쿼리에 직접 삽입될 때 발생.
+  - XSS는 주로 사용자의 웹 브라우저 환경을 노려, 악성 스크립트를 주입해 실행시키는 공격
+    - 사용자의 세션 정보나 쿠키를 탈취하거나, 악성 코드를 전달하거나, 웹페이지 내용을 변조함.
+    - 피해는 DB가 아니라 최종 사용자의 브라우저와 그 세션에 미침.
+    - 입력값이 HTML이나 자바스크립트 등의 클라이언트 쪽 코드에 직접 삽입될 때 발생.
+      → SQL Injection은 서버의 DB를 노리고, XSS는 사용자의 브라우저에서 악의적 스크립트가 실행되어 사용자에게 직접적인 위험을 가하는 점에서 각각 공격방식과 영향 대상이 다르다.
+</br></br>
+</div>
+</details>
