@@ -457,6 +457,7 @@
 </details>
 
 ### 트리
+
 <details>
 <summary>트리와 그래프의 차이점은?</summary>
 <div markdown="1">
@@ -728,3 +729,16 @@ SQL 쿼리문에 **사용자 입력값이 직접 삽입**되고, 입력값에 �
 </br></br>
 </div>
 </details>
+
+### 정규화(Normalization)
+
+<details> <summary>정규화란?</summary> <div markdown="1"> 
+RDB 설계에서 중복을 제거하여 이상현상을 방지하고 무결성을 유지하며 저장공간을 효율적으로 사용할 수 있도록 하는 과정 </br></br></div> </details> <details> <summary>제 1정규형이란?</summary> <div markdown="1"> 모든 도메인의 값이 원자값인 상태 </br></br></div> </details> <details> <summary>제 2정규형이란?</summary> <div markdown="1"> 모든 필드의 부분 함수 종속이 제거됨 (완전 함수 종속 만족)<br> 즉, PK의 일부 요소만으로 다른 종속자가 결정되면 안된다. </br></br></div> </details> <details> <summary>제 3정규형이란?</summary> <div markdown="1"> 모든 필드의 이행 함수 종속이 제거됨<br><br>
+
+- 이행 함수 종속이란? <br>
+  A→B가 성립하고 B→C가 성립해 논리적으로 A→C가 성립하는 경우<br> 즉, PK가 아닌 속성에 다른 일반 속성이 의존하는 경우</br></div>
+  <br> 즉, A→B가 성립하고 B→C가 성립해 논리적으로 A→C가 성립하는 경우, 테이블을 분리해야 한다.</br> </div> </details>
+
+<details> <summary>보이스코드 정규형이란?</summary> <div markdown="1"> 모든 함수 종속의 결정자가 후보키인 상태<br> 즉, X→Y에서 X가 반드시 후보키여야 한다.</br></br> </div> </details>
+<details> <summary>정규화의 장단점?</summary> <div markdown="1"> <b>장점</b>: 중복 제거, 무결성 유지, 저장 효율, 이상현상 방지<br> <b>단점</b>: 조회 성능이 떨어질 수 있음, 설계 및 관리가 복잡함 </br></br></div> </details> 
+<details> <summary>반정규화란?</summary> <div markdown="1"> 정규화된 테이블을 통합하거나 일부 중복을 허용하는 과정<br> 조인이 자주 발생하는 테이블이나 계산이 자주 반복되는 값을 저장하는 경우 등에서 조회 성능을 높이기 위해서 선택적으로 적용한다.</br></br> </div> </details>
