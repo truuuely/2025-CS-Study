@@ -1,6 +1,6 @@
 ## 2025 CS 스터디
 
-- 매주 월, 목 진행
+- 매주 월 진행
 - 각자 주제를 정해서 노션에 정리 후 설명하고, 설명 들은 사람이 깃허브에 정리하는 방식
 
 - Git Commit 컨벤션: **`[add/fix/delete/rename] topic/detail`** </br> ex) `[fix] algorithm/sort`
@@ -44,7 +44,7 @@
 | ------------------------------------------------------------------------------------ |
 | [3-1. 키](https://github.com/truuuely/2025-CS-Study/blob/main/Database/%ED%82%A4.md) |
 | [3-2. ]()                                                                            |
-| [3-3. SQL Injection]()                                                               |
+| [3-3. SQL Injection](https://github.com/truuuely/2025-CS-Study/blob/main/Database/SQL%20Injection.md) |
 | [3-4. ]()                                                                            |
 | [3-5. 정규화(Normalization)]()                                                       |
 | [3-6. ]()                                                                            |
