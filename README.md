@@ -46,7 +46,7 @@
 | [3-2. ]()                                                                            |
 | [3-3. SQL Injection](https://github.com/truuuely/2025-CS-Study/blob/main/Database/SQL%20Injection.md) |
 | [3-4. ]()                                                                            |
-| [3-5. 정규화(Normalization)]()                                                       |
+| [3-5. 정규화(Normalization)](https://github.com/truuuely/2025-CS-Study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94(Normalization).md)                                                       |
 | [3-6. ]()                                                                            |
 
 ### 4. Network
