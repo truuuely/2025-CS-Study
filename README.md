@@ -1,6 +1,6 @@
 ## 2025 CS 스터디
 
-- 매주 월, 목 진행
+- 매주 월 진행
 - 각자 주제를 정해서 노션에 정리 후 설명하고, 설명 들은 사람이 깃허브에 정리하는 방식
 
 - Git Commit 컨벤션: **`[add/fix/delete/rename] topic/detail`** </br> ex) `[fix] algorithm/sort`
@@ -30,22 +30,24 @@
 |                                                                                                                                                                                              |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [2-1. 선형 자료구조와 비교](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%84%A0%ED%98%95%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%99%80%20%EB%B9%84%EA%B5%90.md) |
-| [2-2. LinkedList](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%97%B0%EA%B2%B0%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)                                                                                                                                                                          |
+| [2-2. LinkedList](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%97%B0%EA%B2%B0%20%EB%A6%AC%EC%8A%A4%ED%8A%B8.md)                                                  |
 | [2-3. 힙](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%9E%99.md)                                                                                                 |
 | [2-4. 스택과 큐](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%8A%A4%ED%83%9D%EA%B3%BC%20%ED%81%90.md)                                                            |
-| [2-5. 트리](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%8A%B8%EB%A6%AC.md)                                                                                                                                                                                |
-| [2-6. 이진 탐색 트리(BST)](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)                                                                                                                                                                 |
+| [2-5. 트리](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%8A%B8%EB%A6%AC.md)                                                                                      |
+| [2-6. 이진 탐색 트리(BST)](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC.md)                             |
 | [2-7. 해시]()                                                                                                                                                                                |
-| [2-8. 트라이(Trie)](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%8A%B8%EB%9D%BC%EC%9D%B4.md)                                                                                                                                                                        |
+| [2-8. 트라이(Trie)](https://github.com/truuuely/2025-CS-Study/blob/main/Data%20Structure/%ED%8A%B8%EB%9D%BC%EC%9D%B4.md)                                                                     |
 
 ### 3. Database
 
-|                        |
-| ---------------------- |
-| [3-1. 키](https://github.com/truuuely/2025-CS-Study/blob/main/Database/%ED%82%A4.md)            |
-| [3-2. ]()              |
+|                                                                                      |
+| ------------------------------------------------------------------------------------ |
+| [3-1. 키](https://github.com/truuuely/2025-CS-Study/blob/main/Database/%ED%82%A4.md) |
+| [3-2. ]()                                                                            |
 | [3-3. SQL Injection](https://github.com/truuuely/2025-CS-Study/blob/main/Database/SQL%20Injection.md) |
-| [3-1. ]()              |
+| [3-4. ]()                                                                            |
+| [3-5. 정규화(Normalization)]()                                                       |
+| [3-6. ]()                                                                            |
 
 ### 4. Network
 
